@@ -1,0 +1,87 @@
+/* Page Background */ 
+body { 
+  font-family: Arial, sans-serif; 
+  background-color: #f0f2f5; /* Facebook-style light gray */ 
+  margin: 0; 
+  padding: 40px 20px; 
+  display: flex; 
+  justify-content: center; 
+} 
+ 
+/* Profile Card Box */ 
+.profile-card { 
+  width: 100%; 
+  max-width: 450px; 
+  background-color: #ffffff; 
+  border-radius: 12px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  overflow: hidden; 
+} 
+ 
+/* Top Banner Header */ 
+.banner { 
+  height: 120px; 
+  background-color: hsl(342, 100%, 89%); /* Facebook Blue */ 
+  position: relative; 
+  margin-bottom: 50px; 
+} 
+ 
+/* Profile Avatar Circle */ 
+.avatar { 
+  width: 90px; 
+  height: 90px; 
+  border-radius: 50%; 
+  border: 4px solid #ffffff; 
+  position: absolute; 
+  bottom: -45px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  object-fit: cover; 
+} 
+ 
+/* Profile Name & Bio Header */ 
+.profile-header { 
+  text-align: center; 
+  padding: 0 20px 10px; 
+} 
+ 
+.profile-header h1 { 
+  margin: 5px 0 0; 
+  font-size: 22px; 
+  color: #050505; 
+} 
+ 
+.bio { 
+  color: #65676b; 
+  font-size: 14px; 
+  margin-top: 5px; 
+} 
+ 
+/* Content Sections */ 
+.profile-content { 
+  padding: 0 25px 25px; 
+} 
+ 
+.section { 
+  margin-top: 20px; 
+  border-top: 1px solid #e4e6eb; 
+  padding-top: 15px; 
+} 
+ 
+.section h2 { 
+  font-size: 16px; 
+  color: hsl(326, 100%, 81%); 
+  margin-bottom: 10px; 
+} 
+ 
+.section ul { 
+  list-style-type: none; 
+  padding-left: 0; 
+  margin: 0; 
+} 
+ 
+.section li { 
+  font-size: 14px; 
+  color: #050505; 
+  padding: 4px 0; 
+} 
